@@ -1,0 +1,17 @@
+.toolbar {
+  height: 60px;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+  background-color: #630f24;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+li {
+  list-style-type: none;
+  padding: 1em 2em;
+}
