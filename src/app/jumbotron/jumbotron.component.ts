@@ -13,6 +13,7 @@ export class JumbotronComponent implements OnInit {
   ];
   areas = [];
   city = '';
+  area = '';
   processIt() {
     this.areas = this.cities.find(city => city.city == this.city).area;
   }
