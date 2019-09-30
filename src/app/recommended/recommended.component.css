@@ -1,3 +1,4 @@
+/* Section Before Recommended*/
 .minor {
   width: 75%;
   margin: 2em auto;
@@ -11,6 +12,21 @@
   margin: 0em 2em;
   font-size: 0.8em;
 }
-.minor .flex-row{
-    align-items: center
+.minor .flex-row {
+  align-items: center;
+}
+
+/**** Recommended Resturant Section*****/
+
+.recommended {
+  width: 80%;
+  margin: auto;
+}
+.recommended h2 {
+  flex-basis: 90%;
+  text-align: center;
+}
+.recommended h4 {
+  flex-basis: 20%;
+  text-align: left;
 }
