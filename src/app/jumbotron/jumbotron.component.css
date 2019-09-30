@@ -1,0 +1,37 @@
+section {
+  background-image: url('../../assets/Mask Group 4.png');
+  min-height: 50vh;
+}
+h2 {
+  color: #420000;
+  font-family: 'Arial';
+  text-align: center;
+  font-weight: 800;
+  margin: 1em;
+  font-size: 3em;
+}
+
+/**Form Styling**/
+select,
+button {
+  flex-basis: 33%;
+  appearance: none;
+  border: none;
+  border-radius: 0px;
+  padding: 2em;
+  background: #fff;
+  font-size: 1.3em;
+}
+
+form {
+  width: 70%;
+}
+.city {
+  border-right: #420000 solid 1px;
+  border-radius: 2.5em 0em 0em 2.5em;
+}
+button {
+  border-radius: 0em 2.5em 2.5em 0em;
+  background: #420000;
+  color: #fff;
+}
