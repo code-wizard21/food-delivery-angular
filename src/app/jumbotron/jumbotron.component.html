@@ -1,1 +1,17 @@
-<p>jumbotron works!</p>
+<section class="flex-column main-center cross-center">
+  <h2>
+    Food Delivery Directly
+    <br />
+    To Your Door Step
+  </h2>
+  <form class="flex-row">
+    <select class="city">
+      <option>Select City</option>
+      <option *ngFor="let city of cities">{{ city.city }} </option>
+    </select>
+    <select>
+      <option>Select Area</option>
+    </select>
+    <button>Find Resturants</button>
+  </form>
+</section>
