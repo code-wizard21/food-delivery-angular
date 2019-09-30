@@ -12,6 +12,10 @@ export class JumbotronComponent implements OnInit {
     { city: 'Ekiti', area: ['Ado-Ekiti', 'Oye-Ekiti', 'Ido', 'Aramoko ', 'Erio-Ekiti'] }
   ];
   areas = [];
+  city = '';
+  processIt() {
+    this.areas = this.cities.find(city => city.city == this.city).area;
+  }
   constructor() {}
 
   ngOnInit() {}

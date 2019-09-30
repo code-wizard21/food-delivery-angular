@@ -5,12 +5,13 @@
     To Your Door Step
   </h2>
   <form class="flex-row">
-    <select class="city">
+    <select [(ngModel)]="city" name="city" class="city" (change)="processIt()">
       <option>Select City</option>
       <option *ngFor="let city of cities">{{ city.city }} </option>
     </select>
     <select>
       <option>Select Area</option>
+      <option *ngFor="let area of areas">{{ area }} </option>
     </select>
     <button>Find Resturants</button>
   </form>
