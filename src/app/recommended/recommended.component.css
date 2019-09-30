@@ -1,0 +1,16 @@
+.minor {
+  width: 75%;
+  margin: 2em auto;
+  justify-content: space-evenly;
+}
+.minor img {
+  max-width: 3em;
+  max-height: 3em;
+}
+.minor p {
+  margin: 0em 2em;
+  font-size: 0.8em;
+}
+.minor .flex-row{
+    align-items: center
+}
