@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
