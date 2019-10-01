@@ -12,6 +12,8 @@ import { HowItWorksComponent } from './Homepage/how-it-works/how-it-works.compon
 import { HowItWorksCardComponent } from './cards/how-it-works/card.component';
 import { PopularResturantsComponent } from './Homepage/popular-resturants/popular-resturants.component';
 import { DownloadAppComponent } from './Homepage/download-app/download-app.component';
+import { TestimoniesComponent } from './Homepage/testimonies/testimonies.component';
+import { TestimoniesCardComponent } from './cards/testimonies-card/testimonies-card.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { DownloadAppComponent } from './Homepage/download-app/download-app.compo
     HowItWorksCardComponent,
     PopularResturantsComponent,
     DownloadAppComponent,
+    TestimoniesComponent,
+    TestimoniesCardComponent
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
