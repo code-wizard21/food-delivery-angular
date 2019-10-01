@@ -1,0 +1,6 @@
+<div class="flex-row main-center recommended">
+  <h2>Popular Resturants</h2>
+</div>
+<div class="flex-row  resturant-container">
+  <app-card *ngFor="let food of foods" [food]="food"></app-card>
+</div>

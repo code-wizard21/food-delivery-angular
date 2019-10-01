@@ -1,6 +1,8 @@
 section {
-  background-image: url('../../assets/Mask Group 4.png');
+  background-image: url('../../../assets/Mask Group 4.png');
   min-height: 50vh;
+  background-size: contain;
+  background-repeat: round;
 }
 h2 {
   color: #420000;
@@ -8,7 +10,7 @@ h2 {
   text-align: center;
   font-weight: 800;
   margin: 1em;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 /**Form Styling**/
@@ -18,13 +20,13 @@ button {
   appearance: none;
   border: none;
   border-radius: 0px;
-  padding: 2em;
+  padding: 1em;
   background: #fff;
   font-size: 1.3em;
 }
 
 form {
-  width: 70%;
+  width: 60%;
 }
 .city {
   border-right: #420000 solid 1px;

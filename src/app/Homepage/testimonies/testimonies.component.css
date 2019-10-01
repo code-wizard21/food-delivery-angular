@@ -1,0 +1,11 @@
+section {
+  margin-top: 5em;
+}
+section h1 {
+  color: #630f24;
+  text-align: center;
+}
+.testimonies {
+  width: 70%;
+  margin: 3em auto;
+}

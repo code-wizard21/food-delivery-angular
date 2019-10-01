@@ -1,0 +1,37 @@
+<section>
+  <!--Section Before Recommended Resturants-->
+  <div class="flex-row main-center minor">
+    <div class="flex-row">
+      <img src="../../assets/store.png" />
+      <p>
+        Over 500
+        <br />
+        Resturants
+      </p>
+    </div>
+    <div class="flex-row">
+      <img src="../../assets/take-away.png" />
+      <p>
+        Over 2000
+        <br />
+        Deliveries Made
+      </p>
+    </div>
+    <div class="flex-row">
+      <img src="../../assets/group.png" />
+      <p>
+        Over 500
+        <br />
+        Registered Customers
+      </p>
+    </div>
+  </div>
+  <!--Recommended Restureant Section-->
+  <div class="flex-row main-center recommended">
+    <h2>Recommended Resturants</h2>
+    <h4>View all resturant</h4>
+  </div>
+  <div class="flex-row  resturant-container">
+    <app-card *ngFor="let food of foods" [food]="food"></app-card>
+  </div>
+</section>

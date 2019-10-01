@@ -1,0 +1,11 @@
+img{
+    width:100%
+}
+.card{
+    /* border:solid 1px #0ef32d; */
+    margin: 1em 
+}
+.card-detail{
+    padding: 2em;
+    box-shadow: lavender 0.2em 0.3em;
+}

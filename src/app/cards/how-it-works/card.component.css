@@ -1,0 +1,13 @@
+.container {
+  flex-basis: 33%;
+  color: #fff;
+}
+.rounded-circle {
+  height: 7em;
+  width: 7em;
+  background: #fff;
+  border-radius: 100%;
+}
+p {
+  width: 80%;
+}
