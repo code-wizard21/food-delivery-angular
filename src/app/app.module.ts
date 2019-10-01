@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { RecommendedComponent } from './recommended/recommended.component';
 import { CardComponent } from './recommended/card/card.component';
+import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { CardComponent } from './recommended/card/card.component';
     JumbotronComponent,
     RecommendedComponent,
     CardComponent,
+    HowItWorksComponent
   ],
   imports: [
     BrowserModule,
