@@ -10,6 +10,7 @@ import { RecommendedComponent } from './recommended/recommended.component';
 import { CardComponent } from './recommended/card/card.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { HowItWorksCardComponent } from './how-it-works/card/card.component';
+import { PopularResturantsComponent } from './popular-resturants/popular-resturants.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HowItWorksCardComponent } from './how-it-works/card/card.component';
     RecommendedComponent,
     CardComponent,
     HowItWorksComponent,
-    HowItWorksCardComponent
+    HowItWorksCardComponent,
+    PopularResturantsComponent
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

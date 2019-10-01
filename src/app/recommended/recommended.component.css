@@ -20,7 +20,7 @@
 
 .recommended {
   width: 80%;
-  margin: auto;
+  margin: 4em auto 1em auto;
 }
 .recommended h2 {
   flex-basis: 90%;
