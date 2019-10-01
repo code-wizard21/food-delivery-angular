@@ -11,6 +11,7 @@ import { CardComponent } from './recommended/card/card.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { HowItWorksCardComponent } from './how-it-works/card/card.component';
 import { PopularResturantsComponent } from './popular-resturants/popular-resturants.component';
+import { DownloadAppComponent } from './download-app/download-app.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PopularResturantsComponent } from './popular-resturants/popular-restura
     CardComponent,
     HowItWorksComponent,
     HowItWorksCardComponent,
-    PopularResturantsComponent
+    PopularResturantsComponent,
+    DownloadAppComponent
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
