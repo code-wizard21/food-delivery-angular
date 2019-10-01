@@ -4,14 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { HeaderComponent } from './header/header.component';
-import { JumbotronComponent } from './jumbotron/jumbotron.component';
-import { RecommendedComponent } from './recommended/recommended.component';
-import { CardComponent } from './recommended/card/card.component';
-import { HowItWorksComponent } from './how-it-works/how-it-works.component';
-import { HowItWorksCardComponent } from './how-it-works/card/card.component';
-import { PopularResturantsComponent } from './popular-resturants/popular-resturants.component';
-import { DownloadAppComponent } from './download-app/download-app.component';
+import { HeaderComponent } from './Homepage/header/header.component';
+import { JumbotronComponent } from './Homepage/jumbotron/jumbotron.component';
+import { RecommendedComponent } from './Homepage/recommended/recommended.component';
+import { CardComponent } from './cards/resturants/card.component';
+import { HowItWorksComponent } from './Homepage/how-it-works/how-it-works.component';
+import { HowItWorksCardComponent } from './cards/how-it-works/card.component';
+import { PopularResturantsComponent } from './Homepage/popular-resturants/popular-resturants.component';
+import { DownloadAppComponent } from './Homepage/download-app/download-app.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { DownloadAppComponent } from './download-app/download-app.component';
     HowItWorksComponent,
     HowItWorksCardComponent,
     PopularResturantsComponent,
-    DownloadAppComponent
+    DownloadAppComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
