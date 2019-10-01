@@ -14,6 +14,7 @@ import { PopularResturantsComponent } from './Homepage/popular-resturants/popula
 import { DownloadAppComponent } from './Homepage/download-app/download-app.component';
 import { TestimoniesComponent } from './Homepage/testimonies/testimonies.component';
 import { TestimoniesCardComponent } from './cards/testimonies-card/testimonies-card.component';
+import { HomeComponent } from './Homepage/home.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TestimoniesCardComponent } from './cards/testimonies-card/testimonies-c
     PopularResturantsComponent,
     DownloadAppComponent,
     TestimoniesComponent,
-    TestimoniesCardComponent
+    TestimoniesCardComponent,
+    HomeComponent
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
