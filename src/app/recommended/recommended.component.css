@@ -30,3 +30,7 @@
   flex-basis: 20%;
   text-align: left;
 }
+.resturant-container {
+  width: 70%;
+  margin: 2em auto;
+}

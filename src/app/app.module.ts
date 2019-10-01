@@ -7,13 +7,15 @@ import {FormsModule} from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
 import { RecommendedComponent } from './recommended/recommended.component';
+import { CardComponent } from './recommended/card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     JumbotronComponent,
-    RecommendedComponent
+    RecommendedComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,

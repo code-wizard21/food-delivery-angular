@@ -31,4 +31,7 @@
     <h2>Recommended Resturants</h2>
     <h4>View all resturant</h4>
   </div>
+  <div class="flex-row  resturant-container">
+    <app-card *ngFor="let food of foods" [food]="food"></app-card>
+  </div>
 </section>
