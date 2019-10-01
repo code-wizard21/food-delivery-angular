@@ -1,0 +1,12 @@
+section {
+  background: #630f24;
+  padding: 2em 1em;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+}
+.card-container {
+  width: 70%;
+  margin: 1em auto;
+}
