@@ -3,6 +3,7 @@
   margin: -8px;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #630f24;
   color: white;
   font-weight: 600;
