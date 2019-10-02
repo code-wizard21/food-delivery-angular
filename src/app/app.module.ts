@@ -15,6 +15,7 @@ import { DownloadAppComponent } from './Homepage/download-app/download-app.compo
 import { TestimoniesComponent } from './Homepage/testimonies/testimonies.component';
 import { TestimoniesCardComponent } from './cards/testimonies-card/testimonies-card.component';
 import { HomeComponent } from './Homepage/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HomeComponent } from './Homepage/home.component';
     DownloadAppComponent,
     TestimoniesComponent,
     TestimoniesCardComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

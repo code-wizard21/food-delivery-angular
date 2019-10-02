@@ -1,0 +1,39 @@
+section {
+  background: #121212;
+  color: #fff;
+}
+
+.van,
+.google {
+  max-width: 10em;
+  max-height: 10em;
+  padding: 1em 5em;
+}
+.van,
+.google {
+  flex-basis: 25%;
+}
+.links {
+  flex-basis: 15%;
+  align-self: flex-start;
+  margin: 2em 0.5em;
+}
+li {
+  list-style-type: none;
+  text-align: left;
+  color: rgb(224, 224, 214);
+}
+.first {
+  color: #fff;
+  font-weight: bolder;
+}
+.below-footer {
+  background: #000;
+}
+.flex-row > li {
+  margin: 2em;
+}
+
+.main-end {
+  margin: auto 5em;
+}
