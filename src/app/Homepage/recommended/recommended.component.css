@@ -53,5 +53,6 @@
   .resturant-container {
     width: 70%;
     margin: 2em auto;
+    flex-direction: row;
   }
 }
