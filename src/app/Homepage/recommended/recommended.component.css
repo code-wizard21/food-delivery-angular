@@ -1,36 +1,58 @@
 /* Section Before Recommended*/
+.minor img {
+  max-width: 2em;
+  max-height: 2em;
+}
+.minor p {
+  margin: 0em 1em;
+  font-size: 0.8em;
+}
 .minor {
   width: 75%;
   margin: 2em auto;
   justify-content: space-evenly;
 }
-.minor img {
-  max-width: 3em;
-  max-height: 3em;
-}
-.minor p {
-  margin: 0em 2em;
-  font-size: 0.8em;
-}
-.minor .flex-row {
-  align-items: center;
-}
-
-/**** Recommended Resturant Section*****/
-
-.recommended {
-  width: 80%;
-  margin: 4em auto 1em auto;
-}
-.recommended h2 {
-  flex-basis: 90%;
-  text-align: center;
-}
-.recommended h4 {
-  flex-basis: 20%;
-  text-align: left;
-}
 .resturant-container {
-  width: 70%;
+  width: 90%;
   margin: 2em auto;
+  flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+  /* Section Before Recommended*/
+  .minor {
+    width: 75%;
+    margin: 2em auto;
+    justify-content: space-evenly;
+  }
+  .minor img {
+    max-width: 3em;
+    max-height: 3em;
+  }
+  .minor p {
+    margin: 0em 2em;
+    font-size: 0.8em;
+  }
+  .minor .flex-row {
+    align-items: center;
+  }
+
+  /**** Recommended Resturant Section*****/
+
+  .recommended {
+    width: 80%;
+    margin: 4em auto 1em auto;
+  }
+  .recommended h2 {
+    flex-basis: 90%;
+    text-align: center;
+  }
+  .recommended h4 {
+    flex-basis: 20%;
+    text-align: left;
+  }
+  .resturant-container {
+    width: 70%;
+    margin: 2em auto;
+    flex-direction: row;
+  }
 }

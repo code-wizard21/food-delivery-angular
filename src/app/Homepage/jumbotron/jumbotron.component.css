@@ -1,7 +1,7 @@
 section {
   background-image: url('../../../assets/Mask Group 4.png');
   min-height: 50vh;
-  background-size: contain;
+  background-size: cover;
   background-repeat: round;
 }
 h2 {
@@ -10,24 +10,18 @@ h2 {
   text-align: center;
   font-weight: 800;
   margin: 1em;
-  font-size: 2.5em;
 }
 
 /**Form Styling**/
 select,
 button {
-  flex-basis: 33%;
   appearance: none;
   border: none;
   border-radius: 0px;
   padding: 1em;
   background: #fff;
-  font-size: 1.3em;
 }
 
-form {
-  width: 60%;
-}
 .city {
   border-right: #420000 solid 1px;
   border-radius: 2.5em 0em 0em 2.5em;
@@ -36,4 +30,25 @@ button {
   border-radius: 0em 2.5em 2.5em 0em;
   background: #420000;
   color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  section {
+    background-size: contain;
+    background-repeat: round;
+  }
+  h2 {
+    font-size: 2em;
+  }
+
+  /**Form Styling**/
+  select,
+  button {
+    flex-basis: 33%;
+    font-size: 1.3em;
+  }
+
+  form {
+    width: 60%;
+  }
 }

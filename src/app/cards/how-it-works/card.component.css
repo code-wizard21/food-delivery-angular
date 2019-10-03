@@ -1,6 +1,7 @@
 .container {
   flex-basis: 33%;
   color: #fff;
+  margin: 1em auto;
 }
 .rounded-circle {
   height: 7em;
@@ -10,4 +11,11 @@
 }
 p {
   width: 80%;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    width: 100%;
+  }
 }
