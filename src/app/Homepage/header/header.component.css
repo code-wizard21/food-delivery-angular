@@ -1,17 +1,51 @@
+header {
+  font-size: 0.7em;
+}
 .toolbar {
-  height: 60px;
-  margin: -8px;
   display: flex;
-  align-items: center;
   background-color: #630f24;
   color: white;
-  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  background-color: #630f24;
+}
+img {
+  width: 20px;
+  height: 20px;
 }
 
-.toolbar img {
-  margin: 0 16px;
-}
 li {
   list-style-type: none;
-  padding: 1em 2em;
+  padding: 0.5em 0.3em;
+}
+
+/* For Screens Bigger than 700 pixels */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    font-size: 0.7em;
+  }
+  li {
+    padding: 1em 1em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    font-size: 1em;
+  }
+  .toolbar {
+    height: 60px;
+    margin: -8px;
+    font-weight: 600;
+  }
+  img {
+    width: 40px;
+    height:40px
+  }
+  .toolbar img {
+    margin: 0 16px;
+  }
+  li {
+    padding: 1em 2em;
+  }
 }

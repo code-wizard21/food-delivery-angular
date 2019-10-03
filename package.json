@@ -5,6 +5,7 @@
     "ng": "ng",
     "serve": "ng serve",
     "start": "node www",
+    "prestart":"yarn build",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
