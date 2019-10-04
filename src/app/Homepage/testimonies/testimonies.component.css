@@ -1,11 +1,21 @@
-section {
-  margin-top: 5em;
-}
 section h1 {
+  margin-top: 1em;
   color: #630f24;
   text-align: center;
 }
-.testimonies {
-  width: 70%;
-  margin: 3em auto;
+
+@media screen and (max-width: 1023px) {
+  .testimonies {
+    flex-direction: column;
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 1024px) {
+  section {
+    margin-top: 3em;
+  }
+  .testimonies {
+    width: 70%;
+    margin: 3em auto;
+  }
 }
