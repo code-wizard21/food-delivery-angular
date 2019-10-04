@@ -1,12 +1,12 @@
 FROM node:10
 
-WORKDIR /usr/src/dnt
+WORKDIR /usr/src/app
 
-COPY package.json /usr/src/dnt
+COPY package.json /usr/src/app
 
 RUN npm i
 
-COPY . /usr/src/dnt
+COPY . /usr/src/app
 
 RUN npm build 
 
