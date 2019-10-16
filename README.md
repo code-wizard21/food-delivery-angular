@@ -1,6 +1,12 @@
 # Tutorial
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
+## About Project
+
+It is single paged angular application built for a food delivery company. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
+
+## Deployment
+
+This Project is hosted online at [gidimo.herokuapp.com](gidimo.herokuapp.com)
 
 ## Development server
 
